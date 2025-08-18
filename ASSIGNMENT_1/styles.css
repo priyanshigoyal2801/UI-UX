@@ -1,4 +1,4 @@
-/* ===== CSS VARIABLES ===== */
+
 :root {
     --bg: #0b0f17;
     --card: #121826;
@@ -9,7 +9,7 @@
     --border: #1e2636;
 }
 
-/* ===== RESET & BASE STYLES ===== */
+
 * {
     box-sizing: border-box;
 }
@@ -22,7 +22,7 @@ html, body {
     font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Inter, Arial;
 }
 
-/* ===== LINKS ===== */
+
 a {
     color: var(--accent);
     text-decoration: none;
@@ -32,14 +32,14 @@ a:hover {
     text-decoration: underline;
 }
 
-/* ===== LAYOUT CONTAINER ===== */
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
     padding: 24px;
 }
 
-/* ===== HEADER ===== */
+
 header.site-header {
     background: linear-gradient(135deg, #0b0f17 0%, #10192b 100%);
     border-bottom: 1px solid var(--border);
@@ -62,7 +62,6 @@ h1 {
     color: var(--muted);
 }
 
-/* ===== NAVIGATION ===== */
 nav.nav {
     margin-top: 16px;
     display: flex;
@@ -77,7 +76,6 @@ nav.nav a {
     background: rgba(255, 255, 255, 0.02);
 }
 
-/* ===== SECTIONS ===== */
 section {
     margin: 28px 0;
     padding: 24px;
@@ -91,7 +89,6 @@ section h2 {
     font-size: 26px;
 }
 
-/* ===== ABOUT SECTION ===== */
 .about-wrap {
     display: grid;
     grid-template-columns: 1fr 200px;
@@ -111,8 +108,6 @@ section h2 {
     color: var(--muted);
     font-size: 14px;
 }
-
-/* ===== TABLES ===== */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -140,7 +135,6 @@ tr:nth-child(even) td {
     background: #101828;
 }
 
-/* ===== SKILLS LIST ===== */
 ul.skills {
     list-style: none;
     margin: 0;
@@ -162,8 +156,6 @@ ul.skills li::before {
     color: var(--accent-2);
     font-weight: 700;
 }
-
-/* ===== PROJECTS ===== */
 .projects {
     display: grid;
     grid-template-columns: 1fr;
@@ -185,27 +177,20 @@ ul.skills li::before {
 .project a {
     white-space: nowrap;
 }
-
-/* ===== TIMELINE ===== */
 .timeline {
     margin: 0 0 4px 18px;
 }
 
-/* ===== FOOTER ===== */
 footer {
     padding: 28px 24px;
     border-top: 1px solid var(--border);
     text-align: center;
     color: var(--muted);
 }
-
-/* ===== UTILITY CLASSES ===== */
 .small {
     font-size: 14px;
     color: var(--muted);
 }
-
-/* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 720px) {
     .about-wrap {
         grid-template-columns: 1fr;
