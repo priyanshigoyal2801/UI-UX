@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wanderly Travels | Packages</title>
+    <meta name="description" content="Explore curated tour packages with price, duration, and destination details.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="Wanderly Travels home">Wanderly<span>Travels</span></a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <nav id="primary-nav" class="site-nav" aria-label="Primary Navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="packages.html" class="active">Packages</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <header class="packages-header">
+            <h1 class="section-title">Tour Packages</h1>
+            <p class="muted">Compare destinations, durations and prices. Click book to reserve your slot.</p>
+          </header>
+          <div class="table-wrap" role="region" aria-label="Packages table" tabindex="0">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Package</th>
+                  <th scope="col">Destination</th>
+                  <th scope="col">Duration</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Season</th>
+                  <th scope="col">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Island Escape</th>
+                  <td>Maldives</td>
+                  <td>5 days</td>
+                  <td>$1,499</td>
+                  <td>Nov–Apr</td>
+                  <td><a class="btn btn-primary" href="booking.html?pkg=island-escape">Book</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">Alpine Adventure</th>
+                  <td>Swiss Alps</td>
+                  <td>7 days</td>
+                  <td>$1,899</td>
+                  <td>Dec–Mar</td>
+                  <td><a class="btn btn-primary" href="booking.html?pkg=alpine-adventure">Book</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">Cultural Circuit</th>
+                  <td>Kyoto, Japan</td>
+                  <td>6 days</td>
+                  <td>$1,299</td>
+                  <td>Mar–May</td>
+                  <td><a class="btn btn-primary" href="booking.html?pkg=cultural-circuit">Book</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">Sahara Sojourn</th>
+                  <td>Morocco</td>
+                  <td>8 days</td>
+                  <td>$1,599</td>
+                  <td>Oct–Apr</td>
+                  <td><a class="btn btn-primary" href="booking.html?pkg=sahara-sojourn">Book</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">City Lights</th>
+                  <td>New York, USA</td>
+                  <td>4 days</td>
+                  <td>$899</td>
+                  <td>All year</td>
+                  <td><a class="btn btn-primary" href="booking.html?pkg=city-lights">Book</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo small">Wanderly<span>Travels</span></div>
+          <p class="muted">Explore more. Worry less.</p>
+        </div>
+        <nav aria-label="Footer navigation">
+          <ul>
+            <li><a href="packages.html" class="active">Packages</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener">&#x1F465; IG</a>
+          <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener">&#x1F465; FB</a>
+          <a href="https://x.com" aria-label="Twitter" target="_blank" rel="noopener">&#x1F426; X</a>
+        </div>
+      </div>
+      <div class="container copyright">© <span id="year"></span> Wanderly Travels. All rights reserved.</div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+  </html>
+
+

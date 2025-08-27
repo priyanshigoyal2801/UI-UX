@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wanderly Travels | Booking</title>
+    <meta name="description" content="Reserve your travel package with our simple booking form.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="Wanderly Travels home">Wanderly<span>Travels</span></a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <nav id="primary-nav" class="site-nav" aria-label="Primary Navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="booking.html" class="active">Booking</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="section-title">Booking Form</h1>
+          <p class="muted">Complete the form below to request your booking. Our team will confirm via email.</p>
+
+          <form id="booking-form" class="form-card" action="#" method="post" novalidate>
+            <div class="form-grid">
+              <div class="form-row">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="fullName" placeholder="John Carter" required>
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              </div>
+
+              <div class="form-row">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="+1 555 123 4567">
+                <div class="helper">Optional, for urgent updates</div>
+              </div>
+              <div class="form-row">
+                <label for="travelers">Travelers</label>
+                <select id="travelers" name="travelers" required>
+                  <option value="">Select</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="destination">Destination</label>
+                <select id="destination" name="destination" required>
+                  <option value="">Choose destination</option>
+                  <option value="maldives">Maldives</option>
+                  <option value="swiss-alps">Swiss Alps</option>
+                  <option value="kyoto">Kyoto, Japan</option>
+                  <option value="morocco">Morocco</option>
+                  <option value="new-york">New York, USA</option>
+                </select>
+              </div>
+              <div class="form-row">
+                <label for="package">Package</label>
+                <select id="package" name="package" required>
+                  <option value="">Select package</option>
+                  <option value="island-escape">Island Escape</option>
+                  <option value="alpine-adventure">Alpine Adventure</option>
+                  <option value="cultural-circuit">Cultural Circuit</option>
+                  <option value="sahara-sojourn">Sahara Sojourn</option>
+                  <option value="city-lights">City Lights</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="start-date">Start Date</label>
+                <input type="date" id="start-date" name="startDate" required>
+              </div>
+              <div class="form-row">
+                <label for="end-date">End Date</label>
+                <input type="date" id="end-date" name="endDate" required>
+              </div>
+
+              <div class="form-row" style="grid-column: 1 / -1;">
+                <label for="requests">Special Requests</label>
+                <textarea id="requests" name="requests" rows="4" placeholder="Allergies, room preference, celebrations..."></textarea>
+              </div>
+            </div>
+            <div class="actions">
+              <button type="reset" class="btn btn-outline">Reset</button>
+              <button type="submit" class="btn btn-primary">Submit Booking</button>
+            </div>
+            <div class="note">By submitting, you agree to our terms and privacy policy.</div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo small">Wanderly<span>Travels</span></div>
+          <p class="muted">Explore more. Worry less.</p>
+        </div>
+        <nav aria-label="Footer navigation">
+          <ul>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener">&#x1F465; IG</a>
+          <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener">&#x1F465; FB</a>
+          <a href="https://x.com" aria-label="Twitter" target="_blank" rel="noopener">&#x1F426; X</a>
+        </div>
+      </div>
+      <div class="container copyright">© <span id="year"></span> Wanderly Travels. All rights reserved.</div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+  </html>
+
+
