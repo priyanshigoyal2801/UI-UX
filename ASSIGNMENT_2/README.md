@@ -4,8 +4,7 @@ A modern travel booking website featuring curated tour packages, a responsive bo
 
 ## Demo
 
-[https://user-images.githubusercontent.com/priyanshigoyal2801/ASSIGNMENT_2_DEMO.mov
-](https://user-images.githubusercontent.com/priyanshigoyal2801/ASSIGNMENT_2_DEMO.mov)
+[Watch the demo video](https://drive.google.com/file/d/1eBLK9WI6ZTCxBmla06CGAF7ZFreqenCF/view?usp=sharing)
 ---
 
 Explore the site to browse packages, book your next adventure, and get inspired by
