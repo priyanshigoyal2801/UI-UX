@@ -4,7 +4,7 @@ A techno-cultural fest website for Saturnalia'25, showcasing events, schedule, g
 
 ## Demo Video
 
-Watch the demo video here: [https://drive.google.com/file/d/1QiSjsb-36clrt0dueUaUjtbrYyY-4d78/view?usp=sharing](DEMO VIDEO)
+[Demo Video](https://drive.google.com/file/d/1QiSjsb-36clrt0dueUaUjtbrYyY-4d78/view?usp=sharing)
 
 ## Project Structure
 
@@ -45,5 +45,3 @@ README.md
 - HTML5
 - CSS3 ([assets/css/styles.css](assets/css/styles.css))
 - JavaScript ([assets/js/main.js](assets/js/main.js))
-
-## License
